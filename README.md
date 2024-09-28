@@ -11,5 +11,5 @@ https://github.com/brummer10/XUiDesigner
 
 ## The plugins are organised into 2 main directories:
 
-main: for plugins that works as wanted
-wip: for plugins in progress
+- main: for plugins that works as wanted
+- wip: for plugins in progress
