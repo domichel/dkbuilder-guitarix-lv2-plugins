@@ -24,7 +24,9 @@ All that makes the Blow Me Amplifier suited not only for guitar, but also for an
 
 ## Included plugins
 - BlowMePreamplifier.sch: Blow Me Preamplifier schematics. Build with
+
 	./build-plug.py  -i BlowMePreamplifier.sch --buildlv2 -n BlowMePreAmpHard
+
   will result into a mono LV2 plugin named GxBlowMePreampHard.
 
   Is is a huge volume difference with the On-Off switch, so it is best used as a mute switch.
@@ -32,7 +34,9 @@ All that makes the Blow Me Amplifier suited not only for guitar, but also for an
   But it have a so cool sound when GX head is set as explained here:
 
 - BlowMeAmp-orig.sch: Blow Me Amplifier schematics.
-	./build-plug.py  -i BlowMeAmp-orig.sch --buildlv2 -n BlowMeHeadHard
+
+ 	./build-plug.py  -i BlowMeAmp-orig.sch --buildlv2 -n BlowMeHeadHard
+
   will build a mono LV2 plugin named GxBlowMeAmpHead.
 
   To use these 2 LV2 plugins in guitarix, in order to get the best sound out of them,
@@ -43,19 +47,27 @@ All that makes the Blow Me Amplifier suited not only for guitar, but also for an
     about the same volume when the Blow Me Head is on or off.
 
   To build a complete amplifier, run:
+
 	./build-plug.py  -i BlowMePreamplifier.sch BlowMeAmp-orig.sch --buildlv2 -n BlowMeAmpHard
 
   We can see the default volume is way too loud into other LV2 hosts like jalv.
 
 - BlowMeAmp2.sch: Blow Me Amplifier schematics with a=17 for the log scale of the Volume.
-	./build-plug.py  -i BlowMeAmp2.sch --buildlv2 -n BlowMeHeadSoft
-  This make it suitable to use with full General volume and Drive at -9 dB in GX head or with other LV2 host.
+
+ 	./build-plug.py  -i BlowMeAmp2.sch --buildlv2 -n BlowMeHeadSoft
+
+   This make it suitable to use with full General volume and Drive at -9 dB in GX head or with other LV2 host.
 
 - BlowMePreamp2.sch: Blow Me Preamplisfier schematics with a=17 for the log scale of the Volume.
+
 	./build-plug.py  -i BlowMePreamp2.sch --buildlv2 -n BlowMePreAmpSoft
+
   and for a complete amplifier:
+
 	./build-plug.py  -i BlowMePreamp2.sch BlowMeAmp2.sch --buildlv2 -n BlowMeAmpSoft
+
   or:
+
 	./build-plug.py  -i BlowMePreamp2.sch BlowMeAmp-orig.sch --buildlv2 -n BlowMeAmp
 
 To get the faust code, replace --buildlv2 by --buildfaust. dkbuilder can generate stereo
