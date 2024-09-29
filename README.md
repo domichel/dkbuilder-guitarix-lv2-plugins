@@ -23,6 +23,7 @@ Which imply the buildlv2 folders contain the LV2 plugins and the dkbuild folders
 only the faust dsp code.
 
 ## Build and install the plugins
+Install the dependencies: lv2, cairo, libX11 (+xorg-proto on gentoo).
 Navigate the tree and go into a <plugin>/buildlv2 folder and run:
 
 	make
