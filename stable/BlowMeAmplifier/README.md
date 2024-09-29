@@ -71,7 +71,7 @@ All that makes the Blow Me Amplifier suited not only for guitar, but also for an
 	./build-plug.py  -i BlowMePreamp2.sch BlowMeAmp-orig.sch --buildlv2 -n BlowMeAmp
 
 To get the faust code, replace --buildlv2 by --buildfaust. dkbuilder can generate stereo
-plugins too. Look at the output of './build-py -h'.
+plugins too. Look at the output of './build-plug.py -h'.
 
 At full volume, these plugins will all have the same gain. That because the only difference between
 Hard and Soft versions is the curve of their potentiometers, which change the scale of the knobs
