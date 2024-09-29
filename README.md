@@ -26,6 +26,7 @@ only the faust dsp code.
 Navigate the tree and go into a <plugin>/buildlv2 folder and run:
 	make
 	make install
+ or use the faust code with XUiDesigner.
 
 Enjoy,
 Dominique
