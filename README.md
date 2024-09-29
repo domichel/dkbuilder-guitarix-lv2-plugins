@@ -24,8 +24,10 @@ only the faust dsp code.
 
 ## Build and install the plugins
 Navigate the tree and go into a <plugin>/buildlv2 folder and run:
+
 	make
-	make install
+ 	make install
+ 
  or use the faust code with XUiDesigner.
 
 Enjoy,
