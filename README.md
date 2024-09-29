@@ -28,8 +28,20 @@ Navigate the tree and go into a <plugin>/buildlv2 folder and run:
 
 	make
  	make install
- 
- or use the faust code with XUiDesigner.
+
+When run as user, 'make install' will install the plugin in $HOME/.lv2, which is fine.
+You may have to add that PATH into LV2_PATH with
+
+	export LV2_PATH="${HOME}/.lv2:${LV2_PATH}"
+
+into your .bashrc file or similar.
+
+When run as root, it will install into /usr/lib/lv2, which is infortunate beacause that path is
+system dependent. Many modern ystem use /usr/lib64/lv2. Which imply you may have to change
+that path into the Makefile file before the install run.
+
+Or even better because it will let You redesign the plugins and other goodies,
+You may use the faust code with XUiDesigner.
 
 Enjoy,
 Dominique
