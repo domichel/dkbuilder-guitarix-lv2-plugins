@@ -17,7 +17,7 @@ the 6L6. This is why it is called the Blow Me Amplifier.
 
 - You have been warned if You want to reproduce it with real hardware.
 
-The capacitors are of relatively high values, that in order to get a good bandwitch in te basses,
+The capacitors are of relatively high values, that in order to get a good bandwitch in the basses,
 that with so little phase shift as possible.
 
 All that makes the Blow Me Amplifier suited not only for guitar, but also for any other use.
